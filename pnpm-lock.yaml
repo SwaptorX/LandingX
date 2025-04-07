@@ -186,8 +186,11 @@ importers:
         specifier: ^0.161.0
         version: 0.161.0
       tsparticles:
-        specifier: ^3.2.1
+        specifier: ^3.8.1
         version: 3.8.1
+      tsparticles-engine:
+        specifier: ^2.12.0
+        version: 2.12.0
       typescript:
         specifier: ^5.3.3
         version: 5.8.3
