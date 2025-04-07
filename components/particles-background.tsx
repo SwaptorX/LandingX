@@ -7,7 +7,7 @@ import { loadFull } from "tsparticles";
 
 export default function ParticlesBackground() {
   const particlesInit = useCallback(async () => {
-    await loadFull(); // <- больше не нужно передавать engine
+    await loadFull(engine);
   }, []);
 
   const particlesLoaded = useCallback(async (container: Container | undefined) => {
